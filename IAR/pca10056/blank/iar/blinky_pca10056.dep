@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1202191279</fileChecksum>
+  <configuration>
+    <name>nrf52840_xxaa</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_error.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\drivers_nrf\delay\nrf_delay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\PlatformIO\src\main.cpp</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\iar\iar_startup_nrf52840.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\boards\boards.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\system_nrf52840.c</file>
+      <file>$PROJ_DIR$\_build\app_error_weak.o</file>
+      <file>$PROJ_DIR$\_build\nrf_strerror.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\nrf_assert.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\main.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\system_nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\nrf52840_bitfields.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\nrf51_to_nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\nrf52_to_nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\compiler_abstraction.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\sdk_errors.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\nordic_common.h</file>
+      <file>$PROJ_DIR$\_build\system_nrf52840.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h</file>
+      <file>$PROJ_DIR$\_build\app_error.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\app_error_weak.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\app_util_platform.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\boards.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\blinky_iar_nRF5x.icf</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\_build\blinky_pca10056.map</file>
+      <file>$PROJ_DIR$\_build\blinky_pca10056.pbd</file>
+      <file>$PROJ_DIR$\_build\nrf_assert.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$PROJ_DIR$\_build\nrf_strerror.pbi</file>
+      <file>$PROJ_DIR$\_build\app_util_platform.pbi</file>
+      <file>$PROJ_DIR$\_build\app_error.pbi</file>
+      <file>$PROJ_DIR$\_build\nrf_strerror.o</file>
+      <file>$PROJ_DIR$\_build\app_error_weak.pbi</file>
+      <file>$PROJ_DIR$\_build\nrf_assert.o</file>
+      <file>$PROJ_DIR$\_build\blinky_pca10056.hex</file>
+      <file>$PROJ_DIR$\_build\system_nrf52840.pbi</file>
+      <file>$PROJ_DIR$\_build\boards.pbi</file>
+      <file>$PROJ_DIR$\_build\blinky_pca10056.out</file>
+      <file>$PROJ_DIR$\_build\iar_startup_nrf52840.o</file>
+      <file>$PROJ_DIR$\_build\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\PlatformIO\src\MBED_test\GPIO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\PlatformIO\src\config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_memobj\nrf_memobj.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\strerror\nrf_strerror.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\balloc\nrf_balloc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_log\nrf_log_backend_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_log\src\nrf_log_ctrl_internal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_log\nrf_log_ctrl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_log\src\nrf_log_internal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\sdk_macros.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_log\nrf_log.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\sdk_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\experimental_section_vars\nrf_section.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\sdk_os.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\nrf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\nrf52_to_nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\drivers_nrf\hal\nrf_peripherals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\cmsis\include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\nrf51_to_nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\compiler_abstraction.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\nrf52840_peripherals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\cmsis\include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\cmsis\include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\device\nrf52840_bitfields.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\drivers_nrf\hal\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\cmsis\include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\system_nrf52840.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\boards\pca10056.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\nordic_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\sdk_errors.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\boards\boards.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\nrf_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\drivers_nrf\nrf_soc_nosd\nrf_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\nrf_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\system_nrf52840.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\strerror\nrf_strerror.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\boards\boards.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_util_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error_weak.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\nrf_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\iar\iar_startup_nrf52840.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\boards\boards.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\_build\app_util_platform.o</file>
+      <file>$PROJ_DIR$\_build\app_error.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\nrf52840_peripherals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\boards\pca10056.h</file>
+      <file>$PROJ_DIR$\_build\system_nrf52840.o</file>
+      <file>$PROJ_DIR$\_build\main.o</file>
+      <file>$PROJ_DIR$\_build\boards.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\nrf.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\device\nrf52840.h</file>
+      <file>$PROJ_DIR$\..\config\sdk_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\nrf_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error_weak.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_fe.a</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 42 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_error.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 76 110 112 84 114 116 83 67 75 78 122 120 88 47 82 70 71 72 79 74 69 118 115 117 46 119 80 66 45 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 70 75 112 110 111 114 115 117 116 118 74 120 122 78 69 79 76 71 67 72 47 46 45 83 119 84 88 129 82 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_util_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 66 117 111 67 84 114 116 112 83 115 76 75 78 120 88 72 87 118 70 71 79 74 69 122 119 80 46 86 47 82 45 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86 112 110 111 114 115 117 116 118 72 66 70 75 74 120 122 78 69 79 76 71 67 87 83 47 46 45 119 84 88 129 82 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\PlatformIO\src\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 111 85 110 77 67 119 66 112 118 76 75 78 120 82 46 49 2 114 116 115 117 70 71 72 79 74 69 122 81 68 73 45 129 48 87 127 83 84 80 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 119 112 110 111 114 115 117 116 118 2 66 70 75 74 120 122 78 69 79 76 71 67 72 85 77 68 73 87 83 47 46 45 84 88 129 82 80 127 81 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\iar\iar_startup_nrf52840.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\boards\boards.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112 72 79 69 117 120 110 87 70 118 46 119 66 127 71 74 115 84 111 77 81 68 76 67 75 78 114 116 122 83 80 129 85 73 47 82 45 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 77 66 70 75 112 110 111 114 115 117 116 118 74 120 122 78 69 79 76 71 67 72 68 73 87 83 47 46 45 119 84 88 129 82 80 127 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\app_error_weak.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112 80 82 88 111 67 75 69 110 87 119 45 120 55 84 118 76 74 63 64 72 46 116 60 51 47 66 114 115 117 70 71 79 78 122 129 62 65 61 54 83 56 58 59 57 53 50 127 52 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 112 110 111 114 115 117 116 118 47 46 45 119 66 70 75 74 120 122 78 69 79 76 71 67 72 84 88 129 82 80 60 61 62 59 65 64 57 58 63 56 55 54 53 50 127 52 86 87 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\toolchain\system_nrf52840.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120 110 118 70 72 74 122 66 111 71 79 112 69 119 114 116 115 117 76 67 75 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112 110 111 114 115 117 116 118 119 66 70 75 74 120 122 78 69 79 76 71 67 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\_build\blinky_pca10056.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 27 103 8 102 109 43 108 38 36 107 26 132 32 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\util\nrf_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 66 118 67 84 82 111 76 75 78 120 112 88 83 114 116 115 117 70 71 72 79 74 69 122 119 80 46 87 47 45 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 112 110 111 114 115 117 116 118 66 70 75 74 120 122 78 69 79 76 71 67 72 83 47 46 45 119 84 88 129 82 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\system_nrf52840.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\nRF5_SDK_14.2.0\components\libraries\strerror\nrf_strerror.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 67 82 59 112 110 120 64 72 51 62 65 118 46 129 119 66 76 75 78 84 58 114 116 115 117 88 57 70 71 79 74 69 61 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 112 110 111 114 115 117 116 118 119 62 46 59 129 82 72 65 84 88 64 57 66 70 75 74 120 122 78 69 79 76 71 67 58 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\boards\boards.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_util_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error_weak.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\nrf_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\iar\iar_startup_nrf52840.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 120 118 16 119 129 121 112 94 111 110 14 13 123 122 127 131 99 114 116 115 117 128 15 17 125 124 130 113 18 46 101 106 104 105 47 19 45 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119 112 110 111 114 115 117 116 118 94 121 128 125 123 120 122 124 12 13 14 15 16 17 99 101 104 105 130 113 47 46 45 18 21 129 19 131 127 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\system_nrf52840.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\boards\boards.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_util_platform.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\app_error_weak.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\util\nrf_assert.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,11 +1,13 @@
-#include <mbed.h>
-#include "config.h"
+
 
 #ifdef IS_PLATFORM_IO
+#include <mbed.h>
 #include "PlatformIO_test/GPIO.h"
 #else
 #include "MBED_test/GPIO.h"
 #endif
+
+#include "config.h"
 
 int main() {
 

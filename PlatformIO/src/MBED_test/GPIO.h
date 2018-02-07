@@ -1,8 +1,10 @@
 #ifndef _GPIO_H
 #define _GPIO_H
 
-#include <mbed.h>
+#include <stdbool.h>
+#include <stdint.h>
 #include "nrf_delay.h"
+#include "boards.h"
 
 void GPIO_handle(void);
 
@@ -12,10 +14,10 @@ void GPIO_handle(void);
 #define LED_3      NRF_GPIO_PIN_MAP(0,15)
 #define LED_4      NRF_GPIO_PIN_MAP(0,16)
 
-#define BUTTON_1   NRF_GPIO_PIN_MAP(0,11)
-#define BUTTON_2   NRF_GPIO_PIN_MAP(0,12)
-#define BUTTON_3   NRF_GPIO_PIN_MAP(0,24)
-#define BUTTON_4   NRF_GPIO_PIN_MAP(0,25)
+//#define BUTTON_1   NRF_GPIO_PIN_MAP(0,11)
+//#define BUTTON_2   NRF_GPIO_PIN_MAP(0,12)
+//#define BUTTON_3   NRF_GPIO_PIN_MAP(0,24)
+//#define BUTTON_4   NRF_GPIO_PIN_MAP(0,25)
 
 void GPIO_test() {
 
