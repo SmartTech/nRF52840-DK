@@ -26,5 +26,5 @@
 - TEST_GPIO
 - TEST_TIMER
 
-# Отладочная плата
+# Отладочная плата "PCA10056"
 ![Image of Yaktocat](https://github.com/SmartTech/nRF52840-DK/blob/master/Doc/nRF52840-DK.png)
