@@ -1,4 +1,4 @@
-"D:\Projects\Vega\nRF52840-DK\PlatformIO\src\main.cpp"
+"D:\Projects\Vega\nRF52840-DK\src\main.cpp"
 -std=c++98
 -ferror-limit=100
 -I

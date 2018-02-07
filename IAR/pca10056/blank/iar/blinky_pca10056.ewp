@@ -1009,7 +1009,7 @@
   <group>
     <name>Application</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\PlatformIO\src\main.cpp</name>
+      <name>$PROJ_DIR$\..\..\..\..\src\main.cpp</name>
     </file>
   </group>
   <group>
