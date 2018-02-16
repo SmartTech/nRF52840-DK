@@ -1,24 +1,31 @@
+#include "nRF52core.h"
 
+HardwareSerial Serial;
 
-#ifdef IS_PLATFORM_IO
-#include <mbed.h>
-#include "PlatformIO_test/GPIO.h"
-#else
-#include "MBED_test/GPIO.h"
-#endif
+void setup() 
+{
+  Serial.begin(115200);
+  pinMode(LED_1, OUTPUT);
 
-#include "config.h"
+}
 
-int main() {
+void loop() {
+  
+  digitalToggle(LED_1);
+  Serial.println(digitalRead(LED_1));
+  nrf_delay_ms(500);
+  
+  //attachInterrupt(BUTTON_1, FALLING);
 
-  #if (TEST_PERIPHERALS == TEST_GPIO)
-  GPIO_test();
-  #elif (TEST_PERIPHERALS == TEST_TIMER)
+}
 
-  #endif
-
-  while(1) {
-
-  }
-
+int main()
+{
+  
+  setup();
+  
+  while(1) loop();
+  
+  
+  
 }
