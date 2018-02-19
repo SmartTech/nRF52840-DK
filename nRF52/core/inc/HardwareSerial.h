@@ -9,6 +9,7 @@
 
 #include "pinName.h"
 
+#include "nrf52_uart.h"
 
 class HardwareSerial : public Stream {
   

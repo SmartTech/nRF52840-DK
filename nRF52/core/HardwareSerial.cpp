@@ -27,12 +27,12 @@ void HardwareSerial::construct(uint8_t _port) {
   config.p_context          = NULL;
   config.hwfc               = (nrf_uart_hwfc_t)hfc;
   config.parity             = (nrf_uart_parity_t)UART_DEFAULT_CONFIG_PARITY;
-  config.baudrate           = (nrf_uart_baudrate_t)NRF_UART_BAUDRATE_115200;
+  config.baudrate           = (nrf_uart_baudrate_t)NRF_UARTE_BAUDRATE_115200;
   config.interrupt_priority = UART_DEFAULT_CONFIG_IRQ_PRIORITY;
   config.use_easy_dma       = true;
   //-----------------------------------------------
-  if(_port==1) uart.p_uarte = NRF_UARTE1;
-  else         uart.p_uarte = NRF_UARTE0;
+  //if(_port==1) uart.p_uarte = NRF_UARTE1;
+  //else         uart.p_uarte = NRF_UARTE0;
   uart.drv_inst_idx = _port;
 }
 
@@ -42,22 +42,22 @@ HardwareSerial::~HardwareSerial()
 
 uint8_t HardwareSerial::begin(uint32 baud) {
   switch(baud) {
-    case 1200    : config.baudrate = NRF_UART_BAUDRATE_1200;    break;
-    case 2400    : config.baudrate = NRF_UART_BAUDRATE_2400;    break;
-    case 4800    : config.baudrate = NRF_UART_BAUDRATE_4800;    break;
-    case 9600    : config.baudrate = NRF_UART_BAUDRATE_9600;    break;
-    case 14400   : config.baudrate = NRF_UART_BAUDRATE_14400;   break;
-    case 19200   : config.baudrate = NRF_UART_BAUDRATE_19200;   break;
-    case 28800   : config.baudrate = NRF_UART_BAUDRATE_28800;   break;
-    case 38400   : config.baudrate = NRF_UART_BAUDRATE_38400;   break;
-    case 57600   : config.baudrate = NRF_UART_BAUDRATE_57600;   break;
-    case 76800   : config.baudrate = NRF_UART_BAUDRATE_76800;   break;
-    case 115200  : config.baudrate = NRF_UART_BAUDRATE_115200;  break;
-    case 230400  : config.baudrate = NRF_UART_BAUDRATE_230400;  break;
-    case 250000  : config.baudrate = NRF_UART_BAUDRATE_250000;  break;
-    case 460800  : config.baudrate = NRF_UART_BAUDRATE_460800;  break;
-    case 921600  : config.baudrate = NRF_UART_BAUDRATE_921600;  break;
-    case 1000000 : config.baudrate = NRF_UART_BAUDRATE_1000000; break;
+    case 1200    : config.baudrate = NRF_UARTE_BAUDRATE_1200;    break;
+    case 2400    : config.baudrate = NRF_UARTE_BAUDRATE_2400;    break;
+    case 4800    : config.baudrate = NRF_UARTE_BAUDRATE_4800;    break;
+    case 9600    : config.baudrate = NRF_UARTE_BAUDRATE_9600;    break;
+    case 14400   : config.baudrate = NRF_UARTE_BAUDRATE_14400;   break;
+    case 19200   : config.baudrate = NRF_UARTE_BAUDRATE_19200;   break;
+    case 28800   : config.baudrate = NRF_UARTE_BAUDRATE_28800;   break;
+    case 38400   : config.baudrate = NRF_UARTE_BAUDRATE_38400;   break;
+    case 57600   : config.baudrate = NRF_UARTE_BAUDRATE_57600;   break;
+    case 76800   : config.baudrate = NRF_UARTE_BAUDRATE_76800;   break;
+    case 115200  : config.baudrate = NRF_UARTE_BAUDRATE_115200;  break;
+    case 230400  : config.baudrate = NRF_UARTE_BAUDRATE_230400;  break;
+    case 250000  : config.baudrate = NRF_UARTE_BAUDRATE_250000;  break;
+    case 460800  : config.baudrate = NRF_UARTE_BAUDRATE_460800;  break;
+    case 921600  : config.baudrate = NRF_UARTE_BAUDRATE_921600;  break;
+    case 1000000 : config.baudrate = NRF_UARTE_BAUDRATE_1000000; break;
     default: break;
   }
   

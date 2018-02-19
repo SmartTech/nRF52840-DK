@@ -19,7 +19,6 @@
 #include "nrf_drv_power.h"
 #include "nrf_drv_saadc.h"
 #include "nrf_drv_ppi.h"
-#include "nrf_drv_uart.h"
 #include "nrf_drv_timer.h"
 #include "nrf_drv_clock.h"
 #include "nrf_drv_gpiote.h"

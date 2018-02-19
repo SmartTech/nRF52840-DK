@@ -83,6 +83,9 @@
 #define PIN_RTS   SER_CON_RTS_PIN        // P1_15 // NRF_GPIO_PIN_MAP(1,15)
 #define PIN_CTS   SER_CON_CTS_PIN        // P0_02 // NRF_GPIO_PIN_MAP(0, 2)
 
+#define LINK_RX   P0_08                  // P0_02 // NRF_GPIO_PIN_MAP(0, 2)
+#define LINK_TX   P0_06                  // P0_02 // NRF_GPIO_PIN_MAP(0, 2)
+
 #define PIN_SDA   P0_31
 #define PIN_SCL   P0_31
 

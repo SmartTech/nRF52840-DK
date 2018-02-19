@@ -2162,6 +2162,18 @@
         </file>
       </group>
       <group>
+        <name>drivers</name>
+        <group>
+          <name>inc</name>
+          <file>
+            <name>$PROJ_DIR$\..\nRF52\core\drivers\inc\nrf52_uart.h</name>
+          </file>
+        </group>
+        <file>
+          <name>$PROJ_DIR$\..\nRF52\core\drivers\nrf52_uart.c</name>
+        </file>
+      </group>
+      <group>
         <name>inc</name>
         <file>
           <name>$PROJ_DIR$\..\nRF52\core\inc\HardwareSerial.h</name>
@@ -2397,9 +2409,6 @@
             <name>$PROJ_DIR$\..\nRF52\system\drivers\inc\nrf_drv_twis.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\nRF52\system\drivers\inc\nrf_drv_uart.h</name>
-          </file>
-          <file>
             <name>$PROJ_DIR$\..\nRF52\system\drivers\inc\nrf_drv_usbd.h</name>
           </file>
           <file>
@@ -2495,9 +2504,6 @@
         </file>
         <file>
           <name>$PROJ_DIR$\..\nRF52\system\drivers\nrf_drv_twis.c</name>
-        </file>
-        <file>
-          <name>$PROJ_DIR$\..\nRF52\system\drivers\nrf_drv_uart.c</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\nRF52\system\drivers\nrf_drv_usbd.c</name>
